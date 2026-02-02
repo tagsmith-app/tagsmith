@@ -1,5 +1,5 @@
 TagSmith
-Copyright (c) 2026 Dane Hartman
+Copyright © 2026 Dane Hartman
 
-This product includes software developed by the TagSmith project.
-Licensed under the Apache License, Version 2.0.
+This product uses ExifTool by Phil Harvey (https://exiftool.org/),
+licensed under the Perl Artistic License or GNU GPL.
