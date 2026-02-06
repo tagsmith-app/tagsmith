@@ -14,12 +14,14 @@ Organize your photo and video library by fixing timestamps and adding GPS coordi
 
 - **View all timestamps at a glance** — See filesystem, EXIF, XMP, and QuickTime dates side-by-side
 - **Integrated preview pane** — Preview images and video thumbnails without leaving the app
-- **Batch edit dates** — Copy dates between metadata fields or set a custom date across multiple files
-- **GPS tagging** — Add location coordinates with a searchable city/country lookup
+- **Batch edit dates and times** — Copy values between metadata fields or set custom dates and times using visual pickers
+- **Sampler tools for date, time, and GPS** — Copy date/time or GPS from any file and apply it to others
+- **GPS tagging** — Add, edit, or erase location coordinates with offline city/country lookup
 - **Fast scanning** — Scan folders with thousands of files; subfolder support included
 - **Preview before applying** — Review exactly what will change before writing to files
 - **Keyboard-driven workflow** — Norton Commander-style navigation for power users
-- **Customizable columns** — Show/hide columns by category (EXIF, XMP, QuickTime, GPS, Camera)
+- **Customizable columns** — Show or hide columns by category (EXIF, XMP, QuickTime, GPS, Camera)
+
 
 ## Supported Formats
 
