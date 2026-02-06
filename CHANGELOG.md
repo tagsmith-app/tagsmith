@@ -2,6 +2,35 @@
 
 All notable changes to TagSmith will be documented in this file.
 
+## [1.3.0] - 2026-02-04
+
+### Added
+- **Graphical Date Picker**: Click the calendar icon (📅) to select dates visually
+  - Month/year navigation with decade view
+  - Highlights today and currently selected date
+  - Click a date to instantly apply it
+- **Graphical Time Picker**: Click the clock icon (🕐) to set time with spinner controls
+  - Hour, minute, and second spinners with up/down buttons
+  - Direct input supported in each field
+  - Badge indicator shows when custom time is set (non-default)
+- **Date/Time Sampler Tool**: Click the eyedropper icon to sample dates from existing files
+  - Click any date cell in the table to copy its value
+  - Automatically fills both date and time fields
+  - Visual feedback with highlighted sampler cursor
+- **GPS Sampler Tool**: Sample GPS coordinates from existing files
+  - Click the eyedropper next to GPS fields to activate
+  - Click any file's GPS cell to copy its coordinates
+  - Works with both latitude and longitude fields
+
+### Changed
+- **Streamlined header**: Subtext changed to "Select a folder to view metadata" which now only appears when file table is empty
+- Date/time picker buttons now properly toggle closed on second click (previously would flicker closed then reopen)
+- Time picker resets to default noon (12:00:00) when loading a new folder or after completing a batch operation
+
+### Fixed
+- **Custom time not applied**: Time picker selections were being ignored, always defaulting to 12:00:00 when applying changes
+- **UI accessible during batch processing**: All source/destination controls, GPS settings, and file table are now disabled during batch apply operations to prevent accidental changes (scrolling remains enabled to monitor progress)
+
 ## [1.2.0] - 2026-01-30
 
 ### Added
