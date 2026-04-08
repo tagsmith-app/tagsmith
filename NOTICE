@@ -3,3 +3,6 @@ Copyright © 2026 Dane Hartman
 
 This product uses ExifTool by Phil Harvey (https://exiftool.org/),
 licensed under the Perl Artistic License or GNU GPL.
+
+This product uses data from GeoNames (https://www.geonames.org/),
+licensed under the Creative Commons Attribution 4.0 License (CC BY 4.0).
