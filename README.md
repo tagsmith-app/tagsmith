@@ -53,7 +53,7 @@ This repository is for **issue tracking and documentation only**. TagSmith is pr
 
 Official releases are distributed exclusively through the [Microsoft Store](https://apps.microsoft.com/detail/9PL73JZKCG80?hl=en-us&gl=US&ocid=pdpshare).
 
-**Why no standalone installer?** A signed installer outside the Store requires a code signing certificate (~$300–500/year) — not practical for a free solo project. The Store version is free, signed by Microsoft, and auto-updates. If demand for a direct download grows, a GitHub Release becomes more feasible and I'll revisit it.
+**Why no standalone installer?** A signed installer outside the Store requires a code signing certificate (~$300–500/year) – not practical for a free solo project. The Store version is free, signed by Microsoft, and auto-updates. If demand for a direct download grows, a GitHub Release becomes more feasible and I'll revisit it.
 
 ---
 
