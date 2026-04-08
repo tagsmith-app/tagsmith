@@ -2,6 +2,38 @@
 
 All notable changes to TagSmith will be documented in this file.
 
+## [2.0.1] - 2026-04-07
+
+### Added
+- **About dialog attribution** – GeoNames (CC BY 4.0) and ExifTool credits shown in the About dialog for license compliance.
+
+---
+
+## [2.0.0] - 2026-02-25
+
+### Added
+- **GPS Propagation** – Geotag DSLR files from your phone's GPS trail using timestamp proximity. A time window slider controls how far in time to search for a GPS anchor.
+- **Offline reverse geocoding** – Convert GPS coordinates to city and country text using the GeoNames cities5000 database (~68,000 cities). Works entirely offline.
+- **IPTC location metadata** – Add country, state, city, and sublocation to photos and videos, written to both XMP and IPTC groups for maximum compatibility with Lightroom, Capture One, and stock agencies.
+- **IPTC keywords** – New Keywords column; keywords written via XMP-dc:Subject (merge, never replace).
+- **IPTC location erase mode** – Erase all IPTC location fields from selected files in one action.
+- **Inline cell editing** – Double-click any date cell to edit it directly in the table. Enter or ✓ to confirm, Escape or ✕ to cancel.
+- **Keyword popover editing** – Double-click any keyword cell to add, remove, or clear tags without overwriting existing ones.
+- **Unified custom datetime input** – The toolbar date field accepts the full `YYYY-MM-DD HH:mm:ss` format with auto-formatting separators.
+- **Time Shift** – Fix an incorrect camera clock by shifting all selected timestamps by a fixed duration.
+- **Edit queue** – Stage multiple selections and changes, review together, then apply in one batch with per-file status tracking.
+- **Open Recent** – File → Open Recent submenu for quick access to the last 6 scanned folders.
+- **GPS Map button** – When a file has GPS coordinates, a Map button in the preview pane opens Google Maps at the file's location.
+- **Google Places GPS lookup** *(optional)* – Search for landmarks, neighborhoods, and addresses via Google Places. Disabled by default; requires your own Google Cloud API key.
+- **AI landmark identification via Google Gemini** *(optional)* – Identify landmarks in photos using Gemini 2.5 Flash. GPS coordinates are refined via Google Places for authoritative positioning. Results cached across sessions.
+- **Batch Gemini wizard** *(optional)* – Run landmark identification across a whole folder with pause, resume, and results review.
+- **Nearby GPS context for Gemini** *(optional)* – Sends GPS from chronologically adjacent files as a geographic hint to improve landmark identification accuracy.
+
+### Removed
+- **TimePicker popup** – The clock icon and spinner-based time picker have been removed. Time is now edited directly in the unified datetime input field.
+
+---
+
 ## [1.4.0] - 2026-02-10
 
 ### Changed
